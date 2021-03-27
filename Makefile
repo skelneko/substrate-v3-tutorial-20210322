@@ -1,3 +1,6 @@
+run_dev:
+  ./target/release/node-template --tmp --dev
+
 purge:
 	./target/release/node-template purge-chain --base-path /tmp/node01 --chain local -y
 
